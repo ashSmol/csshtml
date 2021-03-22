@@ -1,5 +1,29 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+.container {
+width: 1140px;
+margin: 0 auto;
+}
+
 body{
      font-family: sans-serif;
+}
+
+
+
+.main__menu{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    height: 70px;
+}
+
+.main__menu > li{
+    width: 70px;
+    list-style-type: none;
 }
 
 .paragraph{
@@ -19,6 +43,14 @@ body{
     text-align: center;
 }
 
+h1{
+    width: 510px;
+}
+
+.top__heading__text{
+    width: 425px;
+}
+
 .h3_heders{
     font-size: 36px;
     text-align: center;
@@ -29,6 +61,42 @@ body{
     line-height: 30px;
     color: #1F3F68;
 }
+
+.card__header{
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+.what__we__do__cards{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
+.card{
+    width: 359px;
+    margin: auto;
+    border: 1px solid black;
+    text-align: justify;
+}
+
+.footer__top{
+    width: 495px;
+}
+.footer__heading{
+    width: 340px;
+}
+.footer__bottom__list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts__content{
+    display: flex;
+    justify-content: space-around;
+}
+
 .inputs{
     border: 1px solid #356EAD;
     box-sizing: border-box;
@@ -46,4 +114,9 @@ body{
     text-align: center;
     color: #FFFFFF;
     text-transform: uppercase;
+}
+
+.ya__map{
+    width: max-content;
+    border: 1 solid black;
 }
