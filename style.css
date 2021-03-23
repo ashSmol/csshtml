@@ -85,8 +85,13 @@ h1{
 .h3_heders{
     font-size: 36px;
     text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    line-height: 46px;
 }
-
+.what-we-do{
+    padding-top: 64px;
+}
 .h4_headers{
     font-size: 20px;
     line-height: 30px;
@@ -97,17 +102,41 @@ h1{
     font-size: 20px;
     line-height: 30px;
     color: #1F3F68;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    margin-bottom: 14px;
 }
 
 .what__we__do__cards{
     display: flex;
     justify-content: space-around;
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
 
 .card{
     width: 359px;
     margin: auto;
-    text-align: justify;
+    padding: 44px 32px;
+    box-sizing: border-box;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__img{
+    align-self: center;
+    margin-bottom: 51px;
+}
+.card__link{
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    text-decoration: none;
 }
 
 .footer__top{
