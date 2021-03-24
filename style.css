@@ -189,16 +189,75 @@ h1{
 
 .footer{
     background: #316099;
+    margin-top: 112px;
 }
 .footer__top{
     width: 495px;
 }
 .footer__heading{
     width: 340px;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    font-weight: normal;
+    padding-top: 91px;
 }
+
+.footer__heading__text{
+    font-weight: normal;
+    color: #FFFFFF;
+    margin-top: 32px;
+}
+
+.footer__top__container{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 391px;
+}
+
 .footer__bottom__list{
     display: flex;
     justify-content: space-around;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.bottom__line{
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+}
+
+.footer__bottom__list > li{
+    max-width: 316px;
+    list-style-type: decimal;
+}
+
+.footer__button__container{
+    height: 56px;
+    align-self: center;
+}
+.footer__button{
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #5A98D0;
+    padding: 15px 80px;
+    text-decoration: none;
+    line-height: 26px;
+     text-align: center;
+    letter-spacing: 0.04em;
+}
+
+.rights__reserved{
+    color: #FFFFFF;
+    opacity: 0.4;
+    margin-bottom: 64px;
+    display: inline-block;
 }
 
 .contacts__content{
